@@ -1,0 +1,344 @@
+/* ===========================
+   LIGHT MODE (Default)
+   =========================== */
+body.light-mode {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: #2d3748;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+body.light-mode .navbar {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    box-shadow: 0 4px 20px rgba(102, 126, 234, 0.3);
+    border: none;
+}
+
+body.light-mode .navbar-brand {
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .nav-link {
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    margin: 0 5px;
+}
+
+body.light-mode .nav-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+body.light-mode .nav-link.active {
+    background: rgba(255, 255, 255, 0.3);
+    font-weight: 600;
+}
+
+body.light-mode .card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    color: #2d3748;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+body.light-mode .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+body.light-mode .card.bg-primary,
+body.light-mode .card.bg-success,
+body.light-mode .card.bg-danger {
+    background: linear-gradient(135deg, var(--bs-primary) 0%, var(--bs-primary-dark, #5568d3) 100%) !important;
+}
+
+body.light-mode .card.bg-success {
+    background: linear-gradient(135deg, #48bb78 0%, #38a169 100%) !important;
+}
+
+body.light-mode .card.bg-danger {
+    background: linear-gradient(135deg, #f56565 0%, #e53e3e 100%) !important;
+}
+
+body.light-mode footer {
+    background: rgba(255, 255, 255, 0.9) !important;
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(102, 126, 234, 0.1);
+    margin-top: 50px;
+}
+
+body.light-mode .btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+body.light-mode .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+}
+
+body.light-mode .btn-success {
+    background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(72, 187, 120, 0.3);
+}
+
+body.light-mode .btn-danger {
+    background: linear-gradient(135deg, #f56565 0%, #e53e3e 100%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(245, 101, 101, 0.3);
+}
+
+body.light-mode .form-control,
+body.light-mode .form-select {
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+body.light-mode .form-control:focus,
+body.light-mode .form-select:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.15);
+    background: white;
+}
+
+body.light-mode .table {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+body.light-mode .table thead {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+body.light-mode .table-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: #f7fafc;
+}
+
+body.light-mode .table-hover > tbody > tr:hover > * {
+    background-color: #edf2f7;
+    transition: all 0.2s ease;
+}
+
+/* ===========================
+   DARK MODE
+   =========================== */
+body.dark-mode {
+    background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+    color: #e2e8f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+body.dark-mode .navbar {
+    background: linear-gradient(135deg, #4c51bf 0%, #553c9a 100%) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .navbar-brand {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+body.dark-mode .nav-link {
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    margin: 0 5px;
+}
+
+body.dark-mode .nav-link:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+}
+
+body.dark-mode .nav-link.active {
+    background: rgba(255, 255, 255, 0.2);
+    font-weight: 600;
+}
+
+body.dark-mode .card {
+    background: rgba(45, 55, 72, 0.95);
+    backdrop-filter: blur(10px);
+    color: #e2e8f0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+body.dark-mode .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode .card.bg-primary,
+body.dark-mode .card.bg-success,
+body.dark-mode .card.bg-danger {
+    border: none;
+}
+
+body.dark-mode footer {
+    background: rgba(26, 32, 44, 0.95) !important;
+    backdrop-filter: blur(10px);
+    color: #a0aec0 !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+}
+
+body.dark-mode footer .text-muted {
+    color: #a0aec0 !important;
+}
+
+body.dark-mode .btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+body.dark-mode .btn-success {
+    background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(72, 187, 120, 0.4);
+}
+
+body.dark-mode .btn-danger {
+    background: linear-gradient(135deg, #f56565 0%, #e53e3e 100%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(245, 101, 101, 0.4);
+}
+
+body.dark-mode .form-control,
+body.dark-mode .form-select {
+    background-color: rgba(45, 55, 72, 0.8);
+    color: #e2e8f0;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+body.dark-mode .form-control:focus,
+body.dark-mode .form-select:focus {
+    background-color: rgba(45, 55, 72, 0.95);
+    color: #e2e8f0;
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+body.dark-mode .table {
+    color: #e2e8f0;
+    background: rgba(45, 55, 72, 0.6);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+body.dark-mode .table thead {
+    background: linear-gradient(135deg, #4c51bf 0%, #553c9a 100%);
+}
+
+body.dark-mode .table-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: rgba(45, 55, 72, 0.5);
+}
+
+body.dark-mode .table-hover > tbody > tr:hover > * {
+    background-color: rgba(66, 76, 92, 0.7);
+    transition: all 0.2s ease;
+}
+
+/* ===========================
+   SHARED STYLES
+   =========================== */
+.card {
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+/* Theme toggle button */
+#themeToggle {
+    transition: all 0.3s ease;
+}
+
+#themeToggle:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    body.light-mode .card:hover,
+    body.dark-mode .card:hover {
+        transform: none;
+    }
+    
+    .navbar-brand {
+        font-size: 1.1rem !important;
+    }
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+}
