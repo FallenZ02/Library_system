@@ -15,7 +15,7 @@ MyLibrary+ is a web-based library management system designed for administrators.
 ---
 
 ## Test Login Instructions
-1. Open `index.html` in a browser.  
+1. Open `index.html` in a browser or you can check this link https://fallenz02.github.io/library_website_2/  
 2. Enter credentials:  
    - **Username:** admin  
    - **Password:** admin123  
@@ -39,3 +39,4 @@ MyLibrary+ is a web-based library management system designed for administrators.
 - Data is stored in browser **localStorage**.  
 - Dark mode toggle works dynamically.  
 - All operations (add/edit/delete) update both the dashboard and localStorage.
+- To check this website works or not, user can try adds book. To check for the fuctionality of the history pages, users have to manage books availability in the edit fuction.
